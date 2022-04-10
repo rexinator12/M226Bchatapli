@@ -14,15 +14,15 @@ heraus, dass es an der besetzte port liegt. Als wir es auf den freien port geset
 hat es nicht angenommen, was wir als namen gegeben haben. Danach fanden wir raus, dass wir den falschen objekt aufgerufen haben. 
 
 01.04.2022:
-Yannic und Janakan haben den Programm so geschrieben, dass es auf console funktioniert. Jetzt versuchen wir es auf eine GUI zu übertragen.
+Janakan hat den Programm so geschrieben, dass es auf console funktioniert. Jetzt versucht Yannic es auf eine GUI zu übertragen.
 Wie es aussieht gibt es viele probleme bei der umwandlung. Wir haben es uns leichter vorgestellt als gedacht. Nach sehr langem versuchen verstanden wir, dass wir es lieber
-schon anfang an schon als GUI programm programmiert haben sollten. Trotzdem versuchten wir weiter.
+schon anfang an schon als GUI programm programmiert haben sollten. Trotzdem versuchte Yannic weiter.
 Dass grösste problem war, den input von GUI zu der Console programm zu übermitteln. Herkömmliche Methoden funktionierten nicht. 
-Wir hatten auch probleme mit Github. Bei mir updatete nicht das aktuellste Github version. Zuhause auf mein desktop funktionierte es. Nach langem gesuche habe ich es am
+Janakan hat auch probleme mit Github. Bei Janakan updatete nicht das aktuellste Github version. Zuhause auf mein desktop funktionierte es. Nach langem gesuche hat Janakan es am
 ende einfach kopiert und eingefügt. Push funktioniert.
 
 08.04.2022:
-Heute haben wir auch versucht den Programm mit der GUI zu verbinden, aber nach recherche fanden wir raus, dass es nicht möglich wäre und wenn wir es in eine GUI programm haben
+Heute hat Yannic auch versucht den Programm mit der GUI zu verbinden, aber nach recherche fanden wir raus, dass es nicht möglich wäre und wenn wir es in eine GUI programm haben
 wollen, dass wir dann den ganzen Programm umschreiben müssen. Um dass zu realisieren versuchten wir schnell wie möglich es zu anzufangen. Bei der umschreibung traten wir an
 viele Probleme die uns zur verzweiflung brachten. Wir entschieden uns am Samstag weiter zu machen.
 
