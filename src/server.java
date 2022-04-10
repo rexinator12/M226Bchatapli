@@ -13,9 +13,12 @@ public class server {
     public void startServer() throws IOException {
         try {
             while (!serverSocket.isClosed()){
+                //Diese Abschnitt Printet aus, wenn eine Client sich verbunden hat durch socket.
+                //Danach wird es in Thread ausgeführt. Dadurch können mehrere Clients parallel laufen.
                 Socket socket = serverSocket.accept();
                 System.out.println("Neue Nutzer hat sich verbunden!");
                 ClientWork clientWork = new ClientWork(socket);
+                //jede client wird in eine separate Thread ausgeführt
                 Thread thread = new Thread(clientWork);
                 thread.start();
 
@@ -35,6 +38,7 @@ public void closeServerSocket(){
     }
     }
     public static void main (String[] args) throws IOException {
+        //server aktzeptiert nur Clients die auf diese Portnummer.
         ServerSocket serverSocket = new ServerSocket(1234);
         server server = new server(serverSocket);
         server.startServer();
